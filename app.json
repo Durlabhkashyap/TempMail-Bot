@@ -3,9 +3,9 @@
 	"description": "A python oriented telegram bot for generating temporary Emails Developed By @riz4d with API of https://www.1secmail.com",
 	"repository": "https://github.com/riz4d/TempMail-Bot",
         "env": {
-        "API_ID": {"description": "Get this value from https://my.telegram.org", "required": true},
-        "API_HASH": {"description": "Get this value from https://my.telegram.org" , "required": true},
-        "BOT_TOKEN": {"description": "Get Bot Token From BotFather Bot","required": true}
+        "API_ID": {"description": "Get this value from https://my.telegram.org", "required": false},
+        "API_HASH": {"description": "Get this value from https://my.telegram.org" , "required": false},
+        "BOT_TOKEN": {"description": "Get Bot Token From BotFather Bot","required": false}
   },
     "addons": [],
     "buildpacks": [
